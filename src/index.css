@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: black;
+  font-size: 16px;
+}
+
+.bar {
+  fill: #333;
+}
+
+.bar:hover {
+  fill: #ffcc33;
+}
+
+.chart, .header {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.tick {
+  font-size: 15px;
+}
+
+.header {
+  position: relative;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+}
+.title {
+  color: #ffcc33;
+}
+
+svg {
+  background-color: #eee;
+}
+
+.tooltip {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  font-size: 1rem;
+  background: #ffcc33;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
