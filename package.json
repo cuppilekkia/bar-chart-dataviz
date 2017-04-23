@@ -2,6 +2,7 @@
   "name": "bar-chart-dataviz",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://cuppilekkia.github.io/bar-chart-dataviz",
   "dependencies": {
     "d3": "^4.8.0",
     "react": "^15.5.4",
